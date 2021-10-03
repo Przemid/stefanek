@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button onClick={RouteChange}>STEEVE</button>
+        <button onClick={RouteChange}>STEeEVE</button>
       </header>
     </div>
   );
