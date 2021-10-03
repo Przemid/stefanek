@@ -1,22 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { useHistory } from "react-router-dom";
+import "./App.css";
 
 function App() {
+  const RouteChange = () => {
+    let path = `https://photos.app.goo.gl/dZP4xVBRikizYVz9A`;
+    window.location.href = path;
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          STEEVE
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={RouteChange}>STEEVE</button>
       </header>
     </div>
   );
