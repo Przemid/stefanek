@@ -1,6 +1,6 @@
 {
-  "short_name": "GŁD_GF_Timer",
-  "name": "GŁD_GF_Timer",
+  "short_name": "Galeria Stefanka",
+  "name": "Galeria Stefanka",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,23 +8,20 @@
       "type": "image/x-icon"
     },
     {
-      "src": "android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+	  "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
-    }	    
+      "sizes": "512x512",
+	  "purpose": "any maskable"
+    }
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#000000"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
