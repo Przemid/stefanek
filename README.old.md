@@ -1,2 +1,0 @@
-# stefanek
-Galeria Zdjęć Stefanka
